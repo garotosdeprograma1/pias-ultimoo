@@ -6,13 +6,13 @@
 <title>Agenda — Marido de Aluguel</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="funcionario-dashboard.css" />
+<link rel="stylesheet" href="./css/dashboard.css" />
 </head>
 <body data-theme="light" data-page="agenda">
 <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
 <div class="app-shell" id="appShell">
   <aside class="sidebar" id="sidebar">
-    <div class="sidebar__brand"><img src="/assets/logo.png" alt="DaFix" class="brand__logo" width="40" height="40"><div class="brand__text"><span class="brand__title">Marido</span><span class="brand__subtitle">de Aluguel · Pro</span></div><button class="sidebar__collapse" id="sidebarCollapse" aria-label="Recolher"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+    <div class="sidebar__brand"><img src="assets/logo.png" alt="DaFix" class="brand__logo" width="40" height="40"><div class="brand__text"><span class="brand__title">Marido</span><span class="brand__subtitle">de Aluguel · Pro</span></div><button class="sidebar__collapse" id="sidebarCollapse" aria-label="Recolher"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
     <nav class="sidebar__nav">
       <p class="nav__label">Principal</p>
       <ul class="nav__list">
@@ -83,7 +83,7 @@
 <div class="modal" id="benefitsModal" role="dialog" aria-modal="true" aria-hidden="true"><div class="modal__backdrop" data-close-modal></div><div class="modal__dialog"><header class="modal__head"><div><h3>Plano Pro · Benefícios</h3><p>Vantagens da sua assinatura.</p></div><button class="icon-btn" data-close-modal><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></header><div class="modal__body"><ul class="benefit-list"><li><span class="benefit-list__icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l2.7 5.5 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.8 1-6.1L3.2 9.4l6.1-.9L12 2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span><div><strong>Destaque nos resultados</strong><p>Apareça nas primeiras posições.</p></div></li><li><span class="benefit-list__icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12l4 4 10-10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><strong>Selo verificado</strong><p>Mais credibilidade.</p></div></li></ul></div><footer class="modal__foot"><button class="btn btn--primary" data-close-modal>Entendi</button></footer></div></div>
 
 <div class="toasts" id="toasts" aria-live="polite"></div>
-<script src="funcionario-dashboard.js" defer></script>
-<script src="funcionario-agenda.js" defer></script>
+<script src="./js/funcionario-dashboard.js" defer></script>
+<script src="./js/funcionario-agenda.js" defer></script>
 </body>
 </html>
